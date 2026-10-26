@@ -4,11 +4,7 @@ let numeroSecreto = gerarNumeroAletorio();
 let tentativas = 1; 
  
 
-//let titulo = document.querySelector("h1");
-//titulo.innerHTML = "jogo do numero secreto";
 
-//let paragrafo = document.querySelector("p");
-//paragrafo.innerHTML = "escolha um numero entre 1 e 10";
 
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
